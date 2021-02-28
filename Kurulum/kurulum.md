@@ -1,3 +1,3 @@
 ```diff
-text in red
+- text in red
 
