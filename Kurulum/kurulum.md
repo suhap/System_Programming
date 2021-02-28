@@ -1,20 +1,6 @@
-:exclamation:
-- UYARI: Bu doküman sanal makineyi kullanmak istemeyenler için hazırlanmıştır. “xubuntu-kouembedded-*.ova” 
- sanal makinesini kullananların bu dokümanı okumasına gerek yoktur.
-- UYARI: Hazır verilen sanal makine (xubuntu-kouembedded-*.ova) dışındaki yöntemlere ders 
-- kapsamında teknik destek verilmemektedir.
-:exclamation:
-@octocat :+1: This PR looks great - it's ready to merge! :shipit:
+:exclamation: UYARI: Bu doküman sanal makineyi kullanmak istemeyenler için hazırlanmıştır. “xubuntu-kouembedded-*.ova”  sanal makinesini kullananların bu dokümanı okumasına gerek yoktur. :exclamation:
 
-# Color Test Document
+:exclamation: UYARI: Hazır verilen sanal makine (xubuntu-kouembedded-*.ova) dışındaki yöntemlere ders kapsamında teknik destek verilmemektedir.:exclamation:
 
 
-<style>H1{color:Blue;}</style>
-<style>H2{color:DarkOrange;}</style>
-<style>p{color:Black;}</style>
-
-
-## Second Heading
-
-This is a test to see how the colors work.
 
