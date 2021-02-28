@@ -1,3 +1,3 @@
-diff
+   diff
 - text in red
 
