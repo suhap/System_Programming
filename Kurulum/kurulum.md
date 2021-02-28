@@ -1,3 +1,1 @@
-   diff
-- text in red
-
++ Why "+"?
