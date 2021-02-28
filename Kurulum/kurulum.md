@@ -6,3 +6,7 @@
 
 ```
 @octocat :+1: This PR looks great - it's ready to merge! :shipit:
+
+<div class="text-purple">
+  This text is purple, <a href="#" class="text-inherit">including the link</a>
+</div>
