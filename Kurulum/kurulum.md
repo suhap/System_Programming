@@ -4,15 +4,14 @@
 
 # İçiiindekiler
 1. [Kurulması gereken programlar](#introduction)
-2. [GNU/Linux dağıtımlarında geliştirme ortamının sıfırdan kurulumu
-](#paragraph1)
+2. [GNU/Linux dağıtımlarında geliştirme ortamının sıfırdan kurulumu](#paragraph1)
     1. [Sub paragraph](#subparagraph1)
 3. [Another paragraph](#paragraph2)
 
-## This is the introduction <a name="introduction"></a>
+## Kurulması Gereken Programlar <a name="introduction"></a>
 Some introduction text, formatted in heading 2 style
 
-## Some paragraph <a name="paragraph1"></a>
+## GNU/Linux dağıtımlarında geliştirme ortamının sıfırdan kurulumu <a name="paragraph1"></a>
 The first paragraph text
 
 ### Sub paragraph <a name="subparagraph1"></a>
