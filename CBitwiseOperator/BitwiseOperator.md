@@ -80,7 +80,7 @@ int main()
 | -------------	|:----------------: 	| 
 | a            	| 0000 0000 0000 1100   | 
 | b             | 0000 0000 0000 1010   |
-| a ^ b       | 0000 0000 0000 0110   |
+| a ^ b       	| 0000 0000 0000 0110   |
 
 # Slayt 31 Saga Bit Kaydırma (>>)
 
@@ -88,6 +88,27 @@ int main()
 | -------------		|:----------------: 		| 
 | Orjinal Sayı A        | 0000 0000 0011 1100   	| 
 | 1 bit kaydırma        | **0**000 0000 0001 1110   	|
+
+
+# Slayt 35 Saga Bit Kaydırma (>>)
+```c
+#include<stdio.h>
+int main()
+{
+	int a = 60;
+	printf("\nNumber is Shifted By 1 Bit  : %d",a >> 1);
+	printf("\nNumber is Shifted By 2 Bits : %d",a >> 2);
+	printf("\nNumber is Shifted By 3 Bits : %d",a >> 3);
+
+	return(0);
+}
+```
+| Giriş      	| İşlem   			| 
+| -------------	|:----------------: 		| 
+| a            	| 0000 0000 0011 1100   	| 
+| a >> 1        | **0**000 0000 0001 1110   	|
+| a >> 2       	| **00**00 0000 0000 1111   	|
+| a >> 3       	| **000**0 0000 0000 0111   	|
 
 
 
