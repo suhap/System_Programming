@@ -31,7 +31,6 @@
 
 # Slayt 24 AND
 ```c
-s = "c syntax highlighting"
 #include<stdio.h>
 int main()
 {
