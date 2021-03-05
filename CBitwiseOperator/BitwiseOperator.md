@@ -10,12 +10,21 @@
 | double        | 64            |
 | boolean       | 1             |
 
-# Slayt 2 Bit Operatörleri
-| Operator     | islem   | 
-| ------------- |:-------------:| 
-| ~          | 1’ tümleyen            | 
-| >>          | Sağa Kaydırma            |
-| <<         | Sola Kaydırma            |
-| &          | Bit düzeyinde AND            |
-| |         | Bit düzeyinde OR           |
-| ^        | Bit düzeyinde XOR            |
+# Slayt 10 Bit Operatörleri
+| Operator      | islem   | 
+| ------------- |:-------------:    | 
+| ~             | 1’ tümleyen       | 
+| >>            | Sağa Kaydırma     |
+| <<            | Sola Kaydırma     |
+| &             | Bit düzeyinde AND |
+| |             | Bit düzeyinde OR  |
+| ^             | Bit düzeyinde XOR |
+
+# Slayt 16 Bit Operatörleri
+| Giriş Bitler      | AND   OR    XOR   | 
+| -------------     |:----------------: | 
+| 0   0             | 0     0     0     | 
+| 0   1             | 0     1     1     |
+| 1   0             | 0     1     1     |
+| 1   1             | 1     1     0     |
+
