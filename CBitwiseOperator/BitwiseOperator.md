@@ -1,4 +1,4 @@
-#Slayt 1 Veri Tipleri
+# Slayt 1 Veri Tipleri
 
 | Veri Tipi     | Byte(8 Bit)   | 
 | ------------- |:-------------:| 
