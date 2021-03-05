@@ -22,7 +22,7 @@
 
 # Slayt 16 Bit Operatörleri
 | Giriş Bitler      | AND   OR    XOR   | 
-| -------------     |:----------------: | 
+
 | 0   0             | 0     0     0     | 
 | 0   1             | 0     1     1     |
 | 1   0             | 0     1     1     |
