@@ -112,6 +112,35 @@ int main()
 
 
 
+# Slayt 38 Sola Bit Kaydırma (<<)
+
+| Verinin hareket yönü	| Sol <<<<<========   		| 
+| -------------		|:----------------: 		| 
+| Orjinal Sayı A        | 0000 0000 0011 1100   	| 
+| 1 bit kaydırma        | 0000 0000 0111 100**0**   	|
+
+
+# Slayt 41 Sola Bit Kaydırma (<<)
+```c
+#include<stdio.h>
+int main()
+{
+	int a = 60;
+	printf("\nNumber is Shifted By 1 Bit  : %d",a << 1);
+	printf("\nNumber is Shifted By 2 Bits : %d",a << 2);
+	printf("\nNumber is Shifted By 3 Bits : %d",a << 3);
+
+	return(0);
+}
+```
+| Giriş      	| İşlem   			| 
+| -------------	|:----------------: 		| 
+| a            	| 0000 0000 0011 1100   	| 
+| a >> 1        | 0000 0000 0111 100**0**   	|
+| a >> 2       	| 0000 0000 1111 00**00**  	|
+| a >> 3       	| 0000 0001 1111 0**000**   	|
+
+
 
 
 
