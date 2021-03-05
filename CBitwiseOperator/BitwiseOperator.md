@@ -37,9 +37,12 @@ int main()
 	int a=12;
 	int b=10;
 	printf("\nNumber1 AND Number2 : %d",a & b);
-	printf("\nNumber  OR  Number2 : %d",a | b);
-	printf("\nNumber  XOR Number2 : %d",a ^ b);
 	return(0);
 }
 ```
+a = 12 = (0000 0000 0000 1100)2
+b = 10 = (0000 0000 0000 1010)2
+
+$k_{n+1}$
+
 
