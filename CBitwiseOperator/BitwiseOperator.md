@@ -40,7 +40,7 @@ int main()
 	return(0);
 }
 ```
-# Slayt 16 Bit Operatörleri
+
 | AND    | AND | 
 | -------------     |:----------------: | 
 | a            | 0000 0000 0000 1100     | 
