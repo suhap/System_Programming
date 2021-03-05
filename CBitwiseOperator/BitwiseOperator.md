@@ -28,3 +28,19 @@
 | 1   0             | 0     1     1     |
 | 1   1             | 1     1     0     |
 
+
+# Slayt 24 AND
+```c
+s = "c syntax highlighting"
+#include<stdio.h>
+int main()
+{
+	int a=12;
+	int b=10;
+	printf("\nNumber1 AND Number2 : %d",a & b);
+	printf("\nNumber  OR  Number2 : %d",a | b);
+	printf("\nNumber  XOR Number2 : %d",a ^ b);
+	return(0);
+}
+```
+
