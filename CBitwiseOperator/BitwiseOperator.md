@@ -141,6 +141,15 @@ int main()
 | a << 3       	| 0000 0001 1111 0**000**   	|
 
 
+# Slayt 45 Bit Maskeleme
+Gerekli verilerin tutulup ve kalanının maskelenmesi (bloke edildigi)
+En Sık Kullanılan Operatör: AND (&)
+
+| Giriş      		| İşlem  (AND) 			| 
+| -------------		|:----------------: 		| 
+| veri          	| 0000 0000 100\|101\|01   	| 
+| maske        		| 0000 0000 000\|**111**\|00   	|
+| maskelenmiş veri	| 0000 0000 000\|**101**\|00 	|
 
 
 
