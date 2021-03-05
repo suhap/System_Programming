@@ -41,7 +41,7 @@ int main()
 }
 ```
 # Slayt 16 Bit Operatörleri
-| Giriş Bitler      | AND   OR    XOR   | 
+| AND    | AND | 
 | -------------     |:----------------: | 
 | a            | 0000 0000 0000 1100     | 
 | b             | 0000 0000 0000 1010    |
