@@ -1,3 +1,5 @@
+$ \sum_{\forall i}{x_i^{2}} $
+
 # Slayt 1 Veri Tipleri
 | Veri Tipi     | Byte(8 Bit)   | 
 | ------------- |:-------------:| 
