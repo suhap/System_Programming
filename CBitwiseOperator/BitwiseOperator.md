@@ -1,4 +1,4 @@
-olons can be used to align columns.
+#Slayt 1 Veri Tipleri
 
 | Veri Tipi     | Byte(8 Bit)   | 
 | ------------- |:-------------:| 
