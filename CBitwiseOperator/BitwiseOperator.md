@@ -167,6 +167,41 @@ void main()
 | -1 << 3	| FFFFFFF**8** 	| 1111 1111 1111 1111 1111 1111 1111 1**000**	|
 | -1 << 4	| FFFFFFF**0** 	| 1111 1111 1111 1111 1111 1111 1111 **0000**	|
 
+# Slayt 53 Bit Kaydırma (Negatif Sayılar)
+```c
+#include<stdio.h>
+int main()
+{
+	int a = -60;
+	
+	printf("\nNegative Right Shift by 1 Bit : %",a >> 1);
+	printf("\nNegative Right Shift by 2 Bits : %d",a >> 2);
+	printf("\nNegative Right Shift by 3 Bits : %d",a >> 3);
+
+	return(0);
+}
+```
+Negative Right Shift by 1 Bit  : -30
+Negative Right Shift by 2 Bits : -15
+Negative Right Shift by 3 Bits : -8
 
 
+# Slayt 55 printf içinde degisken kaydırma
+```c
+#include<stdio.h>
+main()
+{
+	int i;
+	for(i=0;i<5;i++)
+   		printf("%d\n", 1 << i);
+}
 
+```
+| Giriş      	| Giriş 	| İşlem						|
+| -------------	|:-------------:| :----------------:				|	 		 
+| 1	        | 00000001	| 0000 0000 0000 0000 0000 0000 0000 0001	|
+| 1 << 0      	| 0000000**1**	| 0000 0000 0000 0000 0000 0000 0000 0001	|
+| 1 << 1	| 0000000**2**	| 0000 0000 0000 0000 0000 0000 0000 001**0**	|
+| 1 << 2	| 0000000**4** 	| 0000 0000 0000 0000 0000 0000 0000 01**00**	|
+| 1 << 3      	| 0000000**8**	| 0000 0000 0000 0000 0000 0000 0000 1**000**	|
+| 1 << 4	| 000000**10**	| 0000 0000 0000 0000 0000 0000 0001 **0000**	|
