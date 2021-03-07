@@ -213,3 +213,33 @@ main()
 | -------------		|:----------------: 		| 
 | Orjinal Sayı A        | 0000 0000 0011 1100   	| 
 | 1’e Tümlenmis A       | 1111 1111 11**00 00**11   	|
+
+# Slayt 65 1’e tümleme
+```c
+#include<stdio.h>
+int main()
+{
+	int a=10;
+	printf("\nNegation of Number 10 : %d",~a);
+	return(0);
+}
+```
+| Giriş			| İşlem  			| 
+| -------------		|:----------------: 		| 
+| a			| 0000 0000 0000 1010   	| 
+| ~a			| 1111 1111 1111 **01 01**   	|
+
+Ekran:
+	Negation of Number 10 : -11
+	
+# Slayt 68 BIT_GET
+```c
+#include<stdio.h>
+int main()
+{
+	int a=10;
+	printf("\nNegation of Number 10 : %d",~a);
+	return(0);
+}
+```
+
