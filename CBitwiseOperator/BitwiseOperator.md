@@ -234,12 +234,14 @@ Ekran:
 	
 # Slayt 68 BIT_GET
 ```c
-#include<stdio.h>
-int main()
-{
-	int a=10;
-	printf("\nNegation of Number 10 : %d",~a);
-	return(0);
-}
+#define BIT_GET(VAR, BIT_NO) ((VAR >> BIT_NO) & 1)
 ```
+
+| 			| 		  			| 
+| -------------		|:----------------: 			| 
+| 			| VAR			11**0**0   	| 
+| BIT_NO = 0 =>		| VAR >> BIT_NO		1100   		|
+| BIT_NO = 1 =>		| VAR >> BIT_NO		011**0**   	|
+| \------------------	|\---------------------			|
+
 
