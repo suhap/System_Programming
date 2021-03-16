@@ -253,7 +253,7 @@ Ekran:
 
 # Slayt 70 BIT_GET
 ```c
-#define BIT_GET(VAR, BIT_NO) ((VAR >> BIT_NO) & 2)
+#define BIT_GET(VAR, BIT_NO) ((VAR >> BIT_NO) & 1)
 ```
 
 | BIT_NO		| İşlem		  			| 
@@ -288,7 +288,27 @@ VAR |= 1<<BIT_NO;
 |-------|---------------|---------------|
 |	|VAR		|01**0**1	|
 |\|	|1 << BIT_NO	|0010		|
-|	|VAR		|01**1**1	|	
+|	|VAR		|01**1**1	|
+
+# Slayt 45 BIT_RESET
+```c
+#define BIT_RESET(VAR, BIT_NO) do {    
+VAR &= ~(1<<BIT_NO); 
+} while (0)
+```
+| BIT_NO		| İşlem		  			| 
+| -------------		|:----------------: 			| 
+| 			| 1	               	0**0**01   	| 
+| BIT_NO = 0 =>		| 1 << BIT_NO		0001   		|
+| BIT_NO = 1 =>		| 1 << BIT_NO		0010   		|
+| BIT_NO = 2 =>		| 1 << BIT_NO		0**1**00    	|
+| BIT_NO = 3 =>		| 1 << BIT_NO		1000   		|
+
+|	|		|		|
+|-------|---------------|---------------|
+|	|VAR		|0**1**01	|
+|\|	|~(1 << BIT_NO)	|1011		|
+|	|VAR		|0**0**01	|
 
 
 
